@@ -1,0 +1,167 @@
+.x-daterange {
+    background-color: #F7F7FC;
+    border: 1px solid #1b376c;
+}
+
+.x-daterange-sidepanel {
+    border-left: solid 7px #23427c;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #fff;
+}
+
+.x-datepicker-default:nth-child(odd) {
+    background-color:#F7FCFB;
+}
+
+.x-datepicker-default:nth-child(odd) .x-datepicker-active {
+    border-color: #F7FCFB;
+}
+
+.x-datepicker-default:nth-child(even) {
+    background-color:#fff;
+}
+
+.x-datepicker-default {
+    border-left: 1px solid #D5DAE0;
+    border-width: 0px 0px 0px 1px!important;
+}
+
+.x-datepicker-start {
+	border-color: #006600!important;
+}
+
+.x-daterange .x-daterange-start-inner {
+    background-color: Chartreuse;
+    border: 1px solid #006600;
+}
+
+.x-daterange .x-daterange-disabled .x-daterange-start-inner {
+    background-color: #c3e6a5;
+    border: 1px solid #598059;
+}
+
+.x-daterange-sidepanel-default .x-form-fieldcontainer,
+.x-daterange-sidepanel-default .x-field {
+    margin: 4px 2px;
+    padding: 0;
+}
+
+.x-daterange .x-daterange-start {
+    background-color: #dbebd3;
+    border: 1px solid rgb(232, 240, 251);
+    margin: 10px 4px 2px 4px;
+}
+
+.x-daterange .x-daterange-end-inner {
+    background-color: #FF3399;
+    border: 1px solid darkred;
+}
+
+.x-daterange .x-daterange-disabled .x-daterange-end-inner {
+    background-color: #cc91ae;
+    border: 1px solid #8a6e6e;
+}
+
+.x-daterange .x-daterange-end {
+    background-color: #FFCCFF;
+    border: 1px solid rgb(232, 240, 251);
+}
+
+.x-datepicker-over-startdate .x-datepicker-date:hover,
+.x-datepicker-start .x-datepicker-date {
+	background-color: Chartreuse;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.x-datepicker-selected .x-datepicker-date {
+	font-weight: normal;	
+	font-size:10px;
+}
+.x-datepicker-default:nth-child(odd) .x-datepicker-selected,
+.x-datepicker-selected {
+	/*border-color: #dae5f3;#D4DBE2*/
+	border-color: #dae5f3;
+}
+
+.x-datepicker-end {
+	border-color: #FF3399!important;
+}
+
+.x-datepicker-over-enddate .x-datepicker-date:hover,
+.x-datepicker-end  .x-datepicker-date{
+	background-color: #FFCCFF;
+	font-weight: bold;
+	font-size:14px;
+}
+
+.x-datepicker-today.x-datepicker-cell {
+    border-color: darkred!important;
+    border-style: dashed;
+}
+
+.x-daterange-active {
+    box-shadow: 0px 3px 10px #a4a6bd;
+}
+.x-daterange-active .x-field {
+    border: 1px solid #1f9cf0!important;
+}
+
+.x-daterange-active.x-start,
+.x-daterange-active.x-end{
+    border-color: #1f9cf0!important;
+}
+
+.x-daterange-disabled {
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+}
+
+.x-daterange-list-items,
+.x-daterange-list-items .x-boundlist-item,
+.x-daterange-label {
+    font-size: 10px;
+}
+
+.x-daterange-sidepanel-title {
+    color: #23427c;
+    border: solid;
+    border-color: #23427c;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.x-datepicker-column-header {
+    background-color: #DFEBF5;
+}
+
+.x-daterange-sidepanel-btn-cancel {
+    background-image: none;
+    background-color: rgb(232, 240, 251);
+}
+
+.x-daterange-sidepanel-btn-cancel .x-btn-inner {
+    color: #639FCA;
+}
+
+.x-daterange-sidepanel-btn-cancel.x-btn-default-small-over {
+    background-color: #456789;
+}
+
+.x-daterange-sidepanel-combo .x-form-trigger {
+    height: 16px;
+}
+
+.x-daterange-sidepanel-combo .x-form-text {
+    font-size: 10px;
+    padding-top: 0;
+}
+
+.x-daterange-sidepanel-item {
+    margin: 1px 3px;
+}
+
+.x-daterange-sidepanel-item.x-daterange-sidepanel-combo {
+    margin-top: 3px;
+}

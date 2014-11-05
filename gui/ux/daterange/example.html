@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<!--    &lt;!&ndash;Ext and ux styles &ndash;&gt;
+    <link href="http://cdn.sencha.com/ext/gpl/4.2.1/resources/css/ext-all.css" rel="stylesheet" type="text/css" />
+
+    &lt;!&ndash;Ext 4 includes&ndash;&gt;
+    <script src="http://cdn.sencha.com/ext/gpl/4.2.1/ext-all-debug.js" type="text/javascript"></script>
+
+    <script src="daterange-examples.js" type="text/javascript"></script>
+
+    &lt;!&ndash;Ux styles &ndash;&gt;
+    <link href="css/daterange.css" rel="stylesheet" type="text/css" />
+    <link href="css/examples.css" rel="stylesheet" type="text/css" />-->
+
+    <script src="test.js"></script>
+
+    <title>DateRange Demo</title>
+</head>
+<body>
+    <div id="example-description">
+        <h1>Ext.ux.daterange.picker.DateRange</h1>
+        <p>
+            With the Ext.ux.daterange.picker.DateRange you can select a start and an end date. <br/>
+            After selecting a date range, you can also use the arrow keys (left, right) to select the next or previous date range.
+        </p>
+        <h3>Specials - MoveToNext/Previous DateRange</h3>
+        <p>
+            Even take a closer look at what happens if you for example select a whole month. Now press the left/right arrow key again.<br>
+            What happens, is, that you move exactly one month forward or backward. DateRange recognizes human date ranges (like weeks, months, quarters, years)
+            and moves therefore to the next/previous human date range.
+        </p>
+        <p>
+            Note that the js for the example code is not minified so it is readable. See <a href="daterange-examples.js">daterange-examples.js</a>.
+        </p>
+    </div>
+    <div id="example-container1">
+    </div>
+    <div>
+        <h1>Ext.ux.daterange.field.DateRange</h1>
+        <p>
+            Provides a date range input field with a Ext.ux.daterange.picker.DateRange dropdown.
+        </p>
+        <h3>Specials</h3>
+        <p>
+            Type something from the following list into the field and see what happens:
+            <ul>
+                <li>15 (The fifteenth of the current month is selected)</li>
+                <li>5-20 (Fifth to twentieth of the current month)</li>
+                <li>25.10.-25.11. (Twenty-fifth of october to twenty-fifth of november of the current year) </li>
+                <li>2014 (The whole year 2014 is selected)</li>
+                <li>Of course this "special" inputs can be individualized</li>
+            </ul>
+        </p>
+        <p>
+            Note that the js for the example code is not minified so it is readable. See <a href="daterange-examples.js">daterange-examples.js</a>.
+        </p>
+    </div>
+    <div id="example-container2">
+    </div>
+    <div>
+        <h1>Ext.ux.daterange.field.DateRangeSelection</h1>
+        <p>
+            This is an extension for the Ext.ux.daterange.picker.DateRange dropdown.
+        </p>
+        <h3>Specials</h3>
+        <p>
+            What is week? <br>
+            Is it from sunday to saturday, or from monday to sunday? What is if the user want to select a workweek from monday to friday?
+            To specify what is a week in your application, you can set <i>weekDayStart</i> and <i>weekDayEnd</i>!
+            This means if a week is selected and you call selectNextDateRange() the next week will be selected.
+            <br><br>
+            e.g.: weekDayStart: 1 (monday) / weekDayEnd: 5 (friday)
+            value: Mo, 5. May - Fr, 9. May; -> expected result: Mo, 12. May - Fr, 16. May
+            value: Mo, 5. May - Fr, 16. May; -> expected result: Mo, 19. May - Fr, 30. May
+        </p>
+        <p>
+            Note that the js for the example code is not minified so it is readable. See <a href="daterange-examples.js">daterange-examples.js</a>.
+        </p>
+    </div>
+    <div id="example-container3">
+    </div>
+    <div style="height: 500px">
+        &nbsp;
+    </div>
+</body>
+</html>

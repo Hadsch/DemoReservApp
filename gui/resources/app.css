@@ -1,0 +1,41 @@
+.x-datepicker-prev-big {
+    left: 6px;
+    background-image: url(images/arrow-left.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.x-datepicker-prev-fast-big {
+    left: 6px;
+    background-image: url(images/arrow-left-left.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.x-datepicker-next-big {
+    left: 6px;
+    background-image: url(images/arrow-right.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.x-datepicker-next-fast-big {
+    left: 6px;
+    background-image: url(images/arrow-right-right.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.x-datepicker-arrow-big {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+
+a.x-datepicker-arrow-big:hover {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+}
