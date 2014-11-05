@@ -158,7 +158,7 @@ Ext.define("Reserv.view.Scheduler", {
                     ],
 
                     plugins:
-                        /*[
+                        [
                         {
                             ptype: 'reservationeditor',
                             height: 140,
@@ -173,9 +173,8 @@ Ext.define("Reserv.view.Scheduler", {
                         {
                             ptype: 'cellediting',
                             clicksToEdit: 1
-                        },*/
-                        new Reserv.view.MyGridPlugin()
-//                    ]
+                        }
+                    ]
                 }
             ]
         });
