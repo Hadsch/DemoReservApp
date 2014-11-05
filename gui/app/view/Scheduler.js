@@ -9,8 +9,7 @@ Ext.define("Reserv.view.Scheduler", {
         'Sch.panel.SchedulerTree',
         'Reserv.view.ReservationEditor',
         'Reserv.view.windows.AddRentalUnit',
-        'Reserv.view.component.CssButton',
-        'Reserv.view.MyGridPlugin'
+        'Reserv.view.component.CssButton'
     ],
     layout: 'border',
     border: false,
