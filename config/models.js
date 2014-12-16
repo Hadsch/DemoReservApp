@@ -17,7 +17,8 @@ module.exports.models = {
   * connections (see `config/connections.js`)                                *
   *                                                                          *
   ***************************************************************************/
-  connection: 'sails-postgresql',
+  connection: 'localDiskDb',
+  //connection: 'sails-postgresql',
 
   /***************************************************************************
   *                                                                          *
