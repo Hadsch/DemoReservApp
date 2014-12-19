@@ -25,6 +25,7 @@
     "grunt-contrib-coffee": "~0.10.1",
       "pg": "3.x",
       "express": "latest"
+	  "newrelic": "latest"1,
   },
   "scripts": {
     "start": "node app.js",
